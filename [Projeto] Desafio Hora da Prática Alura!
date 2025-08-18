@@ -1,0 +1,32 @@
+// Exibir ola mundo
+function mostrarOlaMundo() {
+    console.log(`Ola, Mundo!`);
+}
+
+// Exibir Ola, [nome]
+function saudarNome(nome) {
+    console.log(`Ola, ${nome}!`);
+}
+
+// Retornar o dobro de um numero 
+function dobrarNumero(numero) {
+    return numero * 2;
+}
+
+// Retornar a media de tres numeros
+function calcularMedia(num1, num2, num3) {
+    return (num1 + num2 + num3) / 3;    
+}
+
+//Retornar o maior de dois numeros 
+function encontrarMaior(a, b) {
+    if (a > b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+//retornar a multiplicacao de um numero por ele mesmo 
+const quadradoDoNumero = numero => numero * numero; 
+console.log(quadradoDoNumero(10));
